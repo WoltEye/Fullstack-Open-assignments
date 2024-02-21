@@ -27,6 +27,7 @@ const App = () => {
   } 
 
   const getAnecdoteWithMostVotes = () => {
+    //Selects the first element in the votes array that has the highest number
     const indexOfMostVotes = votes.indexOf(Math.max(...votes))
     if(votes[indexOfMostVotes] === 0) {
       return 'No votes'
