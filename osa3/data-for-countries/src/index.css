@@ -1,0 +1,32 @@
+.country {
+  display: flex;
+}
+
+.country button {
+  height: 1.75rem;
+  width: 3rem; 
+}
+
+.country img {
+  width: 250px;
+}
+
+.country.basic {
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+}
+
+.country.expanded {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-field-container input[type="text"] {
+  width: 25rem; 
+}
